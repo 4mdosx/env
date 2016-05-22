@@ -11,10 +11,10 @@ def user(name):
 
 @app.errorhandler(404)
 def page_noe_found(e):
-    return
+    return 
 
 @app.errorhandler(500)
-def 
+def
 
 if __name__ == '__main__':
     app.run(debug=True)
