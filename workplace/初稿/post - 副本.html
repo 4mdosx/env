@@ -1,0 +1,138 @@
+﻿<!DOCTYPE HTML>
+<html>
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0 minimal-ui" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+		<title>提交心愿</title>
+
+		<link href="styles/style.css" rel="stylesheet" type="text/css">
+		<link href="styles/font-awesome.css" rel="stylesheet" type="text/css">
+
+		<script type="text/javascript" src="scripts/jquery.js"></script>
+		<script type="text/javascript" src="scripts/framework.plugins.js"></script>
+		<script type="text/javascript" src="scripts/custom.js"></script>
+	</head>
+
+	<body>
+		<div id="preloader">
+			<div id="status">
+				<p class="center-text">
+					正在加载...
+				</p>
+			</div>
+		</div>
+
+		<div class="all-elements">
+
+			<!-- Sidebar-->
+				<div class="snap-drawers">
+				<div class="snap-drawer snap-drawer-left">
+					<div class="sidebar-header">
+						<a href="#" class="sidebar-logo"></a>
+						<a href="#" class="sidebar-close"><i class="fa fa-times"></i></a>
+					</div>
+					<div class="sidebar-breadcrumb">
+						校区
+					</div>
+					<ul class="sidebar-menu">
+						<li>
+							<a href="index.html"><i class="fa fa-arrows"></i>本部<i class="fa fa-last fa-circle"></i></a>
+						</li>
+                        <li>
+							<a href="index.html"><i class="fa fa-arrows-h"></i>海韵<i class="fa fa-last fa-circle"></i></a>
+						</li>
+                        <li>
+							<a href="index.html"><i class="fa fa-arrows-alt"></i>翔安<i class="fa fa-last fa-circle"></i></a>
+						</li>
+                        <li>
+							<a href="index.html"><i class="fa fa-hand-o-up"></i>不限<i class="fa fa-last fa-circle"></i></a>
+						</li>
+					</ul>
+					<div class="sidebar-breadcrumb">
+						结伴
+					</div>
+					<ul class="sidebar-menu">
+						<li id="sidebar-login"><a href="login.html"><i class="fa fa-support"></i>运动<i class="fa fa-last fa-circle"></i></a>
+						</li>
+						<li id=""><a href="post.html"><i class="fa fa-book"></i>学习<i class="fa fa-last fa-circle"></i></a>
+						</li>
+						<li id=""><a href="manage.html"><i class="fa fa-coffee"></i>美食<i class="fa fa-last fa-circle"></i></a>
+						</li>
+                        <li id=""><a href="manage.html"><i class="fa fa-car"></i>出行<i class="fa fa-last fa-circle"></i></a>
+						</li>
+                        <li id=""><a href="manage.html"><i class="fa fa-cubes"></i>其他<i class="fa fa-last fa-circle"></i></a>
+						</li>
+					</ul>
+				
+				</div>
+			</div>
+
+			<!-- Page Content-->
+			<div id="content" class="snap-content">
+				<div class="header">
+					<a href="#" class="open-nav"><i class="fa fa-navicon"></i></a>
+					<a href="#" class="header-logo"></a>
+				</div>
+
+				<div class="content">
+					<div class="commentsFormWrapper">
+						<div class="commentsForm">
+							<div class="formFieldWrapper">
+								<label for="commentNameField">选择分类:</label>
+									<select> 
+										<option>运动</option> 
+										<option>学习</option> 
+										<option>美食</option>
+                                        <option>出行</option>
+                                        <option>其他</option> 
+									</select> 
+							</div>
+							<div class="formTextareaWrapper">
+								<label for="commentCommentTextarea">结伴内容:</label>
+								<textarea class=" commentCommentTextarea" id="contentData" placeholder="请输入你的结伴内容，为了帮助你更迅速地寻找到合适的小伙伴，请明确结伴的时间、地点、事件。如果有几句关于自己的介绍，会帮你找到更合适的ta（（（功能计数，限制140字）））"></textarea>
+							</div>
+							<input type="submit" class="buttonWrapper commentSubmitButton inputButtonFix" id="commentSubmitButton" value="提交" />
+						</div>
+					</div>
+				</div>
+
+				<div class="footer">
+					<p class="center-text">
+						Copyright 2016.
+						<br> ？结伴？“
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<script type="text/javascript">
+			(function($) {
+
+				$(document).ready(function() {
+
+					$('#commentSubmitButton').on('click', function() {
+						$.post('Operation.php?oper=post&connect=' + $('#connectData').val() + '&content=' + $('#contentData').val(), function(s) {
+							if (s.error == 'login') {
+								return alert('您需要先登录再提交!');
+							}
+							if (s.error == 'EmptyPost') {
+								return alert('您的信息没有填写完整, 无法提交!');
+							}
+							if (s.error == 'ok') {
+								alert('提交心愿成功');
+								window.location.href = 'index.html';
+							}
+						}, 'json');
+					});
+				});
+
+			}(jQuery));
+		</script>
+
+	</body>
+
+</html>
