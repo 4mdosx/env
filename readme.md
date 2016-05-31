@@ -12,7 +12,7 @@ count_day = 01
 
 accomplish_flag = false  
 
-var newProject = {}  
+var project = new Webapp_Project()
 
 //01
-newProject.has(web_page_templates) === true
+project.has(web_page_templates) === true
