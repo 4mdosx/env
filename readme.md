@@ -17,3 +17,4 @@ var project = new Webapp_Project()
 //01
 project.has(web_page_templates) === true
 i.i
+i.i
