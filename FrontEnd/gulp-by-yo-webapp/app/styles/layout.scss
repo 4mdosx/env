@@ -1,0 +1,134 @@
+.home .container-fluid{
+  padding: 0;
+}
+$bar-height:60px !default;
+.fl{
+  float: left;
+}
+.fr{
+  float: right;
+}
+.control-bar{
+  display: block;
+  height: $bar-height;
+  width: 100%;
+  position: fixed;
+  background-color: #fff;
+  z-index: 10;
+}
+.header-box{
+  top: 0;
+  border-bottom: 1px solid #efefef;
+  @extend .control-bar;
+
+  .btn-wrap{
+    position: relative;
+    top:5px;
+    display: inline-block;
+    line-height: 60px;
+    margin-left: 20px;
+  }
+  .btn-wrap.fr{
+    margin-right: 20px;
+    a.i-block{
+      margin-left: 5px;
+    }
+  }
+}
+.nav-page-btn{
+  bottom: 0;
+  border-top: 2px solid #efefef;
+
+  .btn-wrap{
+    padding-top: 10px;
+    text-align: center;
+    display: block;
+    float: left;
+    box-sizing: padding-box;
+    width: 25%;
+    height: 100%;
+  }
+  @extend .control-bar;
+}
+.huge-icon{
+  display: block;
+  position: absolute;
+  top: 15px;
+  left: 50%;
+  margin-left: -25px;
+  background: url("../favicon.ico") no-repeat;
+  width: 60px;
+  height: 60px;
+}
+//------+--------+-----------
+//    Main     in      here
+//       Body     the
+//------+--------+-----------
+.content-wrap{
+  height: calc(100% - 120px);
+  padding: 60px 0;
+  overflow: scroll;
+
+  .loading-area{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 130px;
+    background-color: rgba(0,0,0,.1);
+    i{
+      position: absolute;
+      bottom: 10px;
+      left: 50%;
+      margin-left: -25px;
+    }
+  }
+  .item{
+    position: relative;
+    border-bottom: 3px solid #efefef;
+    padding-left: 80px;
+    padding-right: 3px;
+
+    .item-attr{
+      h1,h2{
+        display: inline-block;
+        font-size: 20px;
+        font-weight: 500;
+      }
+      h2:nth-of-type(1){
+        margin-left: 2px;
+      }
+      h2:nth-of-type(2){
+        position: absolute;
+        top:5px;
+        right: 10px;
+        i{
+          position: relative;
+          left:3px;
+        }
+      }
+      h2{
+        font-size: 16px;
+        font-weight: 300;
+        color: grey;
+      }
+    }
+    .btn-group{
+      height: 30px;
+    }
+    progress{
+      position: absolute;
+      bottom: 9px;
+      right: 16px;
+      width: 80px;
+      border-radius: 2px;
+      background-color: pink;
+    }
+    &:last-of-type{
+      &:after{
+        display: block;
+        height: 60px;
+        width: 100%;
+      }
+    }
+  }
+}

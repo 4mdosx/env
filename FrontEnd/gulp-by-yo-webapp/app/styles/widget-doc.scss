@@ -1,0 +1,85 @@
+@import "./widget.scss";
+
+/*only use in this page*/
+
+body{
+  padding-top: 60px;
+}
+.huge-icon{
+  display: block;
+  position: absolute;
+  top:15px;
+  right: 20px;
+  background: url("../favicon.ico") no-repeat;
+  width: 60px;
+  height: 60px;
+}
+.column-header{
+  text-align: center;
+}
+
+.huge-header{
+  display: block;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin-top: 0;
+  text-align: center;
+  background-color: $green;
+  height: 60px;
+  line-height: 60px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 1px 3px 1px hsla(0, 0 ,0,.5);
+  z-index: 10;
+}
+.row{
+  margin-left:-40px;
+}
+.display-box{
+  text-align: center;
+  height: inherit;
+}
+.display-box div{
+  height: 100px;
+  display: block;
+  background-color: hsla(0, 0, 0, .1);
+}
+.display-box figcaption{
+  margin: 10px 0;
+  text-align: center;
+
+  @extend .text-success;
+}
+pre{
+  background-color: pink;
+  display: inline-block;
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+  margin-right: 10px;
+  overflow:visible;
+}
+.child-col-x12-m3{
+  li{
+    height: 150px;
+    list-style-type: none;
+    @extend .col-xs-12,.col-md-3;
+  }
+  .display-box div{
+    padding-top: 30px;
+    height: 100px;
+  }
+}
+.child-col-x12-m4{
+  li{
+    height: 260px;
+    list-style-type: none;
+    @extend .col-xs-12,.col-md-4;
+  }
+  .display-box div{
+    padding-top: 90px;
+    height: 250px;
+    padding-left: 5px;
+  }
+}
