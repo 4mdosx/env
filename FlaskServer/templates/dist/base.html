@@ -1,0 +1,38 @@
+{% block doc -%}
+<!DOCTYPE html>
+<html {% block html_attribs %}lang="cmn-Hans-CN"{% endblock html_attribs %}>
+{%- block html %}
+  <head>
+    {%- block head %}
+    <title>{% block title %}{% endblock title %}</title>
+
+    {%- block metas %}
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {%- endblock metas %}
+
+    {%- block styles %}
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/global.css') }}"
+    rel="stylesheet" media="screen">
+    {%- endblock styles %}
+    {%- endblock head %}
+  </head>
+  <body {% block body_attribs %}{% endblock body_attribs %}>
+    {% block body -%}
+    {% block header -%}
+    {%- endblock header %}
+    {% block main -%}
+    {%- endblock main %}
+    {% block nav -%}
+    {%- endblock nav %}
+
+    {% block scripts %}
+    <script type="text/javascript" src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+    {%- endblock scripts %}
+    {%- endblock body %}
+  </body>
+{%- endblock html %}
+</html>
+{% endblock doc -%}

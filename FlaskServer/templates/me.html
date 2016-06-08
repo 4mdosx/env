@@ -1,0 +1,39 @@
+{% extends "./dist/home_template.html" %}
+{% block main -%}
+<main class="content-wrap">
+  <div class="building">
+    <img src="{{ url_for('static', filename='building.png') }}" alt="" />
+    <div class="cover">
+      <p>注册功能 开发中.... 0v0<p>
+    </div>
+  </div>
+</main>
+{%- endblock main %}
+{% block  nav -%}
+<nav class="nav-page-btn">
+  <div class="btn-wrap">
+    <a href="{{ url_for('index',_external=True)}}" class="i-block i-home">
+      <span class="glyphicon glyphicon-tower"></span>
+      <p>They ,</p>
+    </a>
+  </div>
+  <div class="btn-wrap">
+    <a href="{{ url_for('favor',_external=True)}}" class="i-block i-favor">
+      <span class="glyphicon glyphicon-inbox"></span>
+      <p>Favor :</p>
+    </a>
+  </div>
+  <div class="btn-wrap">
+    <a href="{{ url_for('like',_external=True)}}" class="i-block i-like">
+      <span class="glyphicon glyphicon-tags"></span>
+      <p>Like ?</p>
+    </a>
+  </div>
+  <div class="btn-wrap">
+    <a href="{{ url_for('me',_external=True)}}" class="i-block i-me active">
+      <span class="glyphicon glyphicon-user"></span>
+      <p>Me .</p>
+    </a>
+  </div>
+</nav>
+{%- endblock nav %}

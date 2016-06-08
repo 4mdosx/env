@@ -1,0 +1,140 @@
+{% extends "./dist/base.html" %}
+
+{% block body_attribs %}class="home"{% endblock body_attribs %}
+
+{% block body -%}
+  <div class="container-fluid">
+{% block header -%}
+  <header class="header-box">
+    <div class="btn-wrap fl">
+      <a href='#' class="i-block i-filter">
+        <span class="glyphicon glyphicon-indent-right"></span>
+      </a>
+      <a href='#' class="i-block i-back hidden">
+        <span class="glyphicon glyphicon-menu-left"></span>
+      </a>
+    </div>
+    <a href="our.html"><i class="huge-icon"></i></a>
+    <input type="text" name="name" value="" placeholder="输入活动编号或类型"
+    class="search_input hidden">
+    <div class="btn-wrap fr">
+      <a href='#' class="i-block i-search">
+        <span class="glyphicon glyphicon-search"></span>
+      </a>
+      <a href='#' class="i-block i-send">
+        <span class="glyphicon glyphicon-send"></span>
+      </a>
+    </div>
+  </header>
+{%- endblock header %}
+{% block main -%}
+<main class="content-wrap">
+  <div class="loading-area">
+    <i class="i-block i-refresh">
+      <span class="glyphicon glyphicon-arrow-down"></span>
+    </i>
+    <i class="i-block i-refresh">
+      <span class="glyphicon glyphicon-refresh hidden"></span>
+    </i>
+  </div>
+  <div class="main-content">
+    <article class="item">
+      <header class="item-attr">
+        <h1>#2234e8</h1>
+        <h2>@Not*Alone</h2>
+        <h2>
+          <i class="i-block i-trash">
+            <span class="glyphicon glyphicon-cd"></span>
+          </i>
+          24min
+        </h2>
+      </header>
+      <p>
+        图书馆三楼自习教室刷夜。自备夜宵毯子。
+      </p>
+      <div class="btn-group">
+          <button type="button" name="button">
+            <i class="i-block i-trash">
+              <span class="glyphicon glyphicon-trash"></span>
+            </i>
+            忽略
+          </button>
+          <button type="button" name="button">
+            <i class="i-block i-collection">
+              <span class="glyphicon glyphicon-eye-open"></span>
+            </i>
+            收藏
+          </button>
+          <button type="button" name="button">
+            <i class="i-block i-want">
+              <span class="glyphicon glyphicon-ice-lolly"></span>
+            </i>
+            想去
+          </button>
+      </div>
+      <span>
+        <progress value="50" max="100">50%</progress>
+        <small>5/10</small>
+      </span>
+    </article>
+  </div>
+</main>
+{%- endblock main %}
+{% block nav -%}
+<nav class="nav-page-btn">
+  <div class="btn-wrap">
+    <a href="{{ url_for('index',_external=True)}}" class="i-block i-home active">
+      <span class="glyphicon glyphicon-tower"></span>
+      <p>They ,</p>
+    </a>
+  </div>
+  <div class="btn-wrap">
+    <a href="{{ url_for('favor',_external=True)}}" class="i-block i-favor">
+      <span class="glyphicon glyphicon-inbox"></span>
+      <p>Favor :</p>
+    </a>
+  </div>
+  <div class="btn-wrap">
+    <a href="{{ url_for('like',_external=True)}}" class="i-block i-like">
+      <span class="glyphicon glyphicon-tags"></span>
+      <p>Like ?</p>
+    </a>
+  </div>
+  <div class="btn-wrap">
+    <a href="{{ url_for('me',_external=True)}}" class="i-block i-me">
+      <span class="glyphicon glyphicon-user"></span>
+      <p>Me .</p>
+    </a>
+  </div>
+</nav>
+{%- endblock nav %}
+<!-- layer box -->
+<div class="select_form hidden">
+  <label for="">if</label>
+  <div class="func-wheel func-wheel-this">
+    <span>this</span>
+  </div>
+  <label for="">then</label>
+  <div class="func-wheel func-wheel-that">
+    <span>that</span>
+  </div>
+</div>
+<div class="if_layer hidden">
+    <ul>
+      <li>校区</li>
+      <li>校区A</li>
+      <li>校区B</li>
+      <li>校区C</li>
+    </ul>
+</div>
+<div class="send_layer hidden">
+  <textarea name="name" rows="8" cols="40" placeholder="活动内容"></textarea>
+  <p>
+    @default  (厦大结伴)
+  </p>
+</div>
+{% block scripts %}
+<script type="text/javascript" src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+{%- endblock scripts %}
+{%- endblock body %}
