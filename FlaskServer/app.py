@@ -14,8 +14,8 @@ def favor():
 @app.route('/like')
 def like():
     return render_template('like.html')
-@app.route('/me')
 
+@app.route('/me')
 def me():
     return render_template('me.html')
 
