@@ -1,18 +1,19 @@
 ```
   |\_/|        ****************************    (\_/)
  / @ @ \       *      "a huge hole"       *   (='.'=)
-( > º < )      *      JieBan&NotAlone     *   (")_(")
+( > º < )      *   welcome to my bias     *   (")_(")
  `>>x<<´       *  warcryDoggie@gmail.com  *
  /  O  \       喜欢py和js，因为他们是lisp的子集（逃
+                攒到100个项目就换电脑！！ 1/100
 ```
 
-#processing....  
+学习过程中的一些新奇脑洞和练手Demo，主要是为了骗Contribution打卡，质量堪忧
 
-count_day = 01  
+# --processing - P
 
-accomplish_flag = false  
+# --completed - C
 
-var project = new Webapp_Project()
+# --suspend - S
 
-//01
-project.has(web_page_templates) === true
+# --abandon - A
+NotAlone - SNS
