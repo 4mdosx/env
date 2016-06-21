@@ -39,3 +39,50 @@ function win(){
     winAnimation.start(80);
 }
 win();
+
+function run() {
+	var interval = 50;
+	var speed = 6;
+	var initLeft = 100;
+	var finalLeft = 400;
+	var frame = 4;
+	var frameLength = 6;
+	var right = true;
+
+	var runAnimation = animation().loadImage(images).enterFrame(function (success, time) {
+		var ratio = (time) / interval;
+		var position;
+		var left;
+		if (right) {
+			position = rightRunningMap[frame].split(' ');
+			left = Math.min(initLeft + speed * ratio, finalLeft);
+			if (left === finalLeft) {
+				right = false;
+				frame = 4;
+				success();
+				return;
+			}
+		} else {
+			position = leftRunningMap[frame].split(' ');
+			left = Math.max(finalLeft - speed * ratio, initLeft);
+			if (left === initLeft) {
+				right = true;
+				frame = 4;
+				success();
+				return;
+			}
+		}
+		if (++frame === frameLength) {
+			frame = 0;
+		}
+		$rabbit2.style.backgroundImage = 'url(' + images[0] + ')';
+		$rabbit2.style.backgroundPosition = position[0] + 'px ' + position[1] + 'px';
+		$rabbit2.style.left = left + 'px';
+	}).repeat(1).wait(1000).changePosition($rabbit2, rabbitWinMap, images[2]).then(function () {
+		console.log('finish');
+	});
+	runAnimation.start(interval);
+}
+
+
+run();

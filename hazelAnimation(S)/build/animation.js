@@ -142,7 +142,7 @@ var animation =
 	* @param taskFn 自定义每帧执行的任务函数
 	* */
 	Animation.prototype.enterFrame = function(taskFn){
-	    this._add(taskFn,TASK_ASYNC);
+	    return this._add(taskFn,TASK_ASYNC);
 	}
 
 	/*
