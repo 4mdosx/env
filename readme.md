@@ -4,27 +4,32 @@
 ( > º < )      *   welcome to my bias     *   (")_(")
  `>>x<<´       *  warcryDoggie@gmail.com  *
  /  O  \       喜欢py和js，因为他们是lisp的子集（逃
-                攒到100个项目就换电脑！！ 2/100
+                攒到100个项目就换电脑！！ 6/100
 ```
 
 Miss.Index 茵蒂克丝
 
-# --processing - P
+# --processing - P  
+
 codeLab - my blog, test new feature about everything  0v0
         - add new page _show Demo_
 
 flamingo － Demo Project of the book _MEAN Web Development_ , I will edit some
 'out-time' code ，be compatible nearly Dependency version.
 
-toilet’s fairy tale － MEAN APP -When you seat on toilet,reading loudly feeds of the app to
-your beloved toilet.There are interview question about FE dev,python,Web and so on
-# --suspend - S
+tofaTale - toilet’s fairy tale － MEAN APP - When you seat on toilet,reading loudly feeds of the app to
+your beloved toilet.There are interview question about FE dev,python,Web and so on  
+
+# --suspend - S  
+
 CVmaker - Node based,shell tool,A knock-off Parser that JSON to HTML
 
-# --completed - C
+# --completed - C  
+
 hazelAnimation - Frame Animation Lib
 
-# --abandon - A
+# --abandon - A  
+
 NotAlone - SNS
 
 
