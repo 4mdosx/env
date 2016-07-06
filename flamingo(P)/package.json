@@ -1,0 +1,13 @@
+{
+  "name": "flamingo",
+  "version": "0.1.0",
+  "description": "example Demo with MEAN Devlopment",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "BSD",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
