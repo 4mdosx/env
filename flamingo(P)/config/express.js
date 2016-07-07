@@ -1,8 +1,11 @@
-var express = require('express'),
+var config = require('./config'),
+    express = require('express'),
     morgan = require('morgan'),    //日志中间件
     compress = require('compress'), //响应内容压缩
     bodyParser = require('body-parser'), //处理请求数据
-    methodOverride = require('method-override');  //提供对DELETE PUT的支持
+    methodOverride = require('method-override'), //提供对DELETE PUT的支持
+    session = require('express-session'),
+    passport = require('passport');
 
 module.exports = function(){
   var app = express();
@@ -19,7 +22,23 @@ module.exports = function(){
   app.use(bodyParser.json());
   app.use(methodOverride());
 
-  require('../app/routes/index.server.routes')(app);    //配置路由
+  app.use(session({
+    saveUninitialized:true,
+    resave:true,
+    secret:config.sessionSecret
+  }));
+   
+  app.set('views','./app/views');
+  app.set('view engine','ejs');
+
+  app.use(passport.initialize());
+  app.use(passport.session());
+
+  //配置路由
+  require('../app/routes/index.server.routes')(app);
+  require('../app/routes/users.server.routes')(app);
+
+  app.use(express.static('./public'));
 
   return app;
 };
