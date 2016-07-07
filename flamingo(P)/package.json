@@ -8,6 +8,11 @@
   "author": "",
   "license": "BSD",
   "dependencies": {
-    "express": "^4.14.0"
+    "body-parser": "^1.15.2",
+    "compress": "^0.99.0",
+    "compression": "^1.6.2",
+    "express": "^4.14.0",
+    "method-override": "^2.3.6",
+    "morgan": "^1.7.0"
   }
 }

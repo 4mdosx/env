@@ -38,8 +38,9 @@ NotAlone - SNS
 不对任何一个字节的质量负责    
 还请unwatching  unstar    
 
+Licence:"BSD"
 本仓库所有代码可以随意复制，使用，修改。  
-仍希望能在注释，或readme中附上我的Github地址。  
+保留署名权👿
 
 如果有任何内容侵犯到您的权益，请邮件联系删除 😊  
 检查邮件时间通常为 GMT+8:00  10:00  And 23:00。  
