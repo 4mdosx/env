@@ -5,6 +5,7 @@ var config = require('./config'),
     bodyParser = require('body-parser'), //处理请求数据
     methodOverride = require('method-override'), //提供对DELETE PUT的支持
     session = require('express-session'),
+    flash = require('connect-flash'),
     passport = require('passport');
 
 module.exports = function(){
@@ -31,6 +32,7 @@ module.exports = function(){
   app.set('views','./app/views');
   app.set('view engine','ejs');
 
+  app.use(flash());
   app.use(passport.initialize());
   app.use(passport.session());
 

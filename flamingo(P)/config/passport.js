@@ -4,11 +4,11 @@ var Passport = require('passport'),
 module.exports = function(){
   var User = mongoose.model('User');
 
-  passport.serializeUser(function(user,done){
+  Passport.serializeUser(function(user,done){
     return done(null,user.id);
   });
 
-  passport.deserializeUser(function(id,done){
+  Passport.deserializeUser(function(id,done){
     User.findOne({
       _id:id
     },'-password -salt',function(err,user){
@@ -16,5 +16,5 @@ module.exports = function(){
     });
   });
 
-  require('./strategies/local.js');
+  require('./strategies/local.js')();
 };
