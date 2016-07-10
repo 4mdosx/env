@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html xmlns:ng="http://angularjs.org">
   <head>
     <meta charset="utf-8">
     <title><%= title %></title>
@@ -8,12 +8,28 @@
   <body>
     <img src="img/favicon.png" alt="" />
     <h1><%= title %></h1>
-    <% if (userFullname) {%>
-      <h2>Hello <%= userFullname %></h2>
+    <% if (user) {%>
       <a href="/signout">Sign out</a>
     <% }else{ %>
       <a href="/signin">Sign in</a>
       <a href="/signup">Sign up</a>
     <% } %>
+    <%- user || 'null'  %>
+
+    <section ng-view></section>
+
+    <script type="text/javascript">
+      window.user =    <%= user || 'null'  %>;
+    </script>
+
+    <script type="text/javascript" src="/lib/angular/angular.js"></script>
+    <script type="text/javascript" src="/lib/angular-route/angular-route.js"></script>
+    <script type="text/javascript" src="lib/angular-resource/angular-resource.js"></script>
+
+    <script type="text/javascript" src="/example/example.client.module.js"></script>
+    <script type="text/javascript" src="/example/controllers/example.client.controller.js"></script>
+    <script type="text/javascript" src="/example/config/example.client.routes.js"></script>
+
+    <script type="text/javascript" src="/application.js"></script>
   </body>
 </html>

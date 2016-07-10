@@ -39,6 +39,7 @@ module.exports = function(){
   //配置路由
   require('../app/routes/index.server.routes')(app);
   require('../app/routes/users.server.routes')(app);
+  require('../app/routes/articles.server.routes')(app);
 
   app.use(express.static('./public'));
 

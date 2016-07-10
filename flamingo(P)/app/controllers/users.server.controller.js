@@ -75,6 +75,16 @@ exports.signout = function (req,res) {
   req.logout();
   res.redirect('/');
 };
+
+
+//********授权中间件
+exports.requiresLogin = function (req,res,next) {
+  if(! req.isAuthenticated()){
+    return res.status(401).send({
+      message:'User is not logged in'
+    });
+  }
+};
 // ************* CRUD ***************
 // *create
 // *list
