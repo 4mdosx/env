@@ -1,0 +1,11 @@
+<section data-ng-controller="ArticlesController" data-ng-init="findOne()">
+  <h1>Edit Article</h1>
+  <form data-ng-submit="update()" novalidate>
+    <div>
+      <label for="title">Title</label>
+      <div>
+        <input type="text" data-ng-model="article.title" id="title">
+      </div>
+    </div>
+  </form>
+</section>
