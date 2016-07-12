@@ -5,7 +5,7 @@ var   Mongoose = require('./config/mongoose'),
       Passport = require('./config/passport');
 
 var db = Mongoose();
-var app = express();
+var app = express(db);
 var passport = Passport();
 
 app.listen(3000);
