@@ -4,8 +4,20 @@
     <div>
       <label for="title">Title</label>
       <div>
-        <input type="text" data-ng-model="article.title" id="title">
+        <input type="text" data-ng-model="article.title" id="title" placeholder="Title" required>
       </div>
+    </div>
+    <div>
+      <label for="content">Content</label>
+      <div>
+        <textarea data-ng-model="article.content" id="content" rows="10" cols="30" placeholder="content"></textarea>
+      </div>
+    </div>
+    <div>
+      <input type="submit" value="Update">
+    </div>
+    <div data-ng-show="error">
+      <strong data-ng-bind="error"></strong>
     </div>
   </form>
 </section>

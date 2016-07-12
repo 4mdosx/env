@@ -1,6 +1,6 @@
 var mainApplicationModuleName = 'mean';
 
-var mainApplicationModule =  angular.module(mainApplicationModuleName,['ngResource','ngRoute','users','example']);
+var mainApplicationModule =  angular.module(mainApplicationModuleName,['ngResource','ngRoute','users','example','articles']);
 
 //配置URL模式 支持的爬虫会等到Ajax加载完成后开始抓取
 mainApplicationModule.config(['$locationProvider',
