@@ -11,11 +11,7 @@ Miss.Index 茵蒂克丝
 
 # --processing - P  
 
-flamingo － Demo Project of the book _MEAN Web Development_ , I will edit some  
-'out-time' code ，be compatible nearly Dependency version.  
-
-tofaTale - toilet’s fairy tale － MEAN APP - When you seat on toilet,reading loudly feeds of the app to  
-your beloved toilet.There are interview question about FE dev,python,Web and so on...    
+QAmachine - A webapp with db, preparing FEdev interview 0v0 
 
 codeLab - my Blog,experiment on new feature about everything.There is mirror image of  
 historical status. dev|test|release  in the [repo](https://github.com/warcryDoggie/wheelMan)  
@@ -27,6 +23,9 @@ CVmaker - Node based,shell tool,A knock-off Parser that JSON to HTML
 # --completed - C  
 
 hazelAnimation - Frame Animation Lib  
+
+flamingo － Demo Project of the book _MEAN Web Development_ , I will edit some  
+'out-time' code ，be compatible nearly Dependency version.  
 
 # --abandon - A  
 

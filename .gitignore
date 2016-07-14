@@ -11,4 +11,4 @@ venv/*
 #FE
 
 ##bower
-
+*/public/bower_lib/*

@@ -1,6 +1,6 @@
 #codeLab - new feature Lab
 
-- public/ (dist FE page
+- public/ (
 |
 | - css/
 | - font/
@@ -8,5 +8,22 @@
 | - index.html  
 | - waterfall.html (dev
 
-- app (node.js response code
-| submit soon~...
+- app/ (node.js baesd server
+|
+| - controllers/
+| - models/
+| - routes/
+| - views/
+
+- config/ (server config
+|
+| - express.js
+
+
+- public/ (FE resouce
+|
+| - img/
+
+- public_v (derelict FE resouce
+|
+| 😭
