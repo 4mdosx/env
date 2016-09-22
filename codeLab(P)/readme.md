@@ -27,3 +27,7 @@
 - public_v (derelict FE resouce
 |
 | 😭
+
+
+Processing....
+9/21  static page -- index article  -- /public/

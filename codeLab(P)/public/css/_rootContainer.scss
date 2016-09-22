@@ -1,0 +1,13 @@
+html{
+  background-color: $primary-grey;
+}
+.root{
+  width:100%;
+  margin:0;
+}
+@media screen and (min-width:1024px){
+  .root{
+    width:86%;
+    margin-left:7%;
+  }
+}

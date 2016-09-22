@@ -1,0 +1,14 @@
+{
+  "name": "codelab",
+  "version": "1.0.0",
+  "description": "my blog",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ToKenLin",
+  "license": "ISC",
+  "dependencies": {
+    "normalize.css": "^4.2.0"
+  }
+}
