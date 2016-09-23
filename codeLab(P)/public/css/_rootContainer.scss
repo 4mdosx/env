@@ -1,9 +1,14 @@
 html{
   background-color: $primary-grey;
+  font-family: $font-global;
+}
+html:lang(zh){
+  font-family: $font-global-cn;
 }
 .root{
-  width:100%;
+  // width:100%;
   margin:0;
+  overflow: hidden;
 }
 @media screen and (min-width:1024px){
   .root{
