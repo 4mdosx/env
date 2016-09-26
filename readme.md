@@ -15,7 +15,7 @@ Miss.Index 茵蒂克丝
 
 coPro - a skill tree and tomato clock for coder
 
-QAmachine - A webapp with db, preparing FEdev interview 0v0 
+QAmachine - A webapp with db, preparing FEdev interview 0v0
 
 codeLab - my Blog,experiment on new feature about everything.There is mirror image of  
 historical status. dev|test|release  in the [repo](https://github.com/warcryDoggie/wheelMan)  
@@ -37,13 +37,11 @@ NotAlone - SNS
 
 
 ## PostScriptum 附言
-学习过程中的一些新奇脑洞、练手Demo、教程示例、魔改实验，为了Contribution！为了打卡！
-不对任何一个字节的质量负责    
-还请unwatching  unstar    
+新奇脑洞、练手Demo、教程示例、魔改实验，为了Contribution！为了打卡！
+不对任何一个字节负责    
+对质量有任何期待的同学，还请unwatching  unstar    
 
 Licence:"BSD"
-本仓库所有代码可以随意复制，使用，修改。  
-保留署名权👿
+建议保留署名 👿
 
 如果有任何内容侵犯到您的权益，请邮件联系删除 😊  
-检查邮件时间通常为 GMT+8:00  10:00  And 23:00。  

@@ -9,6 +9,7 @@ module.exports = function(){
   //配置路由
   require('../app/routes/index.server.routes')(app);
 
+  //middleware *FIFO
   app.use(express.static('./public'));
 
   return app;
