@@ -2,7 +2,7 @@
 .DS_Store
 
 #Node
-node_modules/*
+*/node_modules/
 
 #Python
 venv/*
@@ -12,3 +12,6 @@ venv/*
 
 ##bower
 */public/bower_lib/*
+
+##codeLab
+codeLab(P)/public_v/*
