@@ -1,4 +1,5 @@
 const express = require('express');
+const config = require('./config');
 //middleware
 const compression = require('compression');  //内容压缩
 const morgan = require('morgan');  //日志
@@ -25,6 +26,12 @@ module.exports = function(){
   app.use(bodyParser.json());
   app.use(methodOverride());
 
+  app.use(session({
+    saveUninitialized:true,
+    resave:true,
+    secret:config.sessionSecret
+  }));
+  
   app.set('views','./app/views');
   app.set('view engine','ejs');
 
