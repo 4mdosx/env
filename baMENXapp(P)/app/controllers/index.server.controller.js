@@ -7,8 +7,7 @@ exports.render = function (req,res) {
     });
   }else{
     res.render('index',{
-      title:'Hello views',
-      session:''
+      title:'Hello views'
     });
   }
 };
