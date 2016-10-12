@@ -32,13 +32,12 @@ module.exports = function(){
     secret:config.sessionSecret
   }));
 
-  app.set('views','./app/views');
-  app.set('view engine','ejs');
+  app.set('views', './views');
+  app.set('view engine', 'jade');
 
   //配置路由
-  require('../app/routes/index.server.routes')(app);
-  require('../app/routes/article.server.route')(app);
-  require('../app/routes/user.server.route')(app);
+  // require('../app-blog/routes/index.server.routes')(app);
+  require('../cms-blog/cms-index.server.route')(app);
   app.use(express.static('./public'));
 
   return app;

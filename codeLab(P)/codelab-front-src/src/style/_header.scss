@@ -1,0 +1,131 @@
+.header-container{
+  width: 100%;
+  height: $header-height;
+  background-color: #fff;
+  margin-bottom:44px;
+  position: relative;
+  @include clearfix();
+}
+
+.mune-container,.search-container,.banner-container{
+  float: left;
+  height: 100%;
+  .iconfont{
+    margin: 0;
+    padding: 0;
+    margin-top: ($header-height - $header-logo-size)/2;
+  }
+  span{
+    cursor: pointer;
+  }
+}
+.mune-container{
+  margin: 0;
+  width: 18%;
+  height: 100%;
+  border-right: 1px solid $primary-grey;
+  box-sizing: border-box;
+  span{
+    float: left;
+  }
+  .logo{
+    display: none;
+  }
+  span.mune-botton{
+    position: relative;
+    margin-left: 50%;
+    left: -16px;
+  }
+}
+.search-container{
+  margin: 0;
+  width: 82%;
+  .search-botton{
+    padding-left: 10px;
+  }
+}
+.banner-container{
+  background-color: #000;
+  width: 30%;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+@media screen and (min-width:1024px){
+  //>1024px;
+  .mune-container{
+    .logo{
+      a{
+        text-decoration: none;
+        color:inherit;
+      }
+      display: block;
+      float: left;
+      margin:2px 0 0 46px;
+      -webkit-box-shadow: rgba(255, 254, 255, 0.6) 0px 7px 7px 0px inset, rgba(0, 0, 0, 0.14902) 0px -2px 7px 0px inset, rgb(204, 133, 0) 0px 2px 3px 0px, rgb(153, 99, 0) 0px 7px 1px 0px, rgba(0, 0, 0, 0.2) 0px 12px 5px 0px;
+      -webkit-transition-delay: 0s;
+      -webkit-transition-duration: 0.2s;
+      -webkit-transition-property: background;
+      -webkit-transition-timing-function: ease-in-out;
+      -webkit-user-select: none;
+      background-color: rgb(255, 166, 0);
+      background-image: -webkit-gradient(radial, 50% 0, 100, 50% 0, 0, from(rgba(255, 255, 255, 0)), to(rgba(255, 255, 255, 0.701961))), url(http://simurai.com/archive/buttons/noise.png);
+      border-bottom-color: rgba(0, 0, 0, 0.0980392);
+      border-bottom-left-radius: 14.390625px;
+      border-bottom-right-radius: 48px;
+      border-bottom-style: solid;
+      border-bottom-width: 1px;
+      border-top-color: rgb(153, 99, 0);
+      border-top-left-radius: 48px;
+      border-top-right-radius: 120px 96px;
+      border-top-style: none;
+      border-top-width: 0px;
+      box-shadow: rgba(255, 254, 255, 0.6) 0px 7px 7px 0px inset, rgba(0, 0, 0, 0.14902) 0px -2px 7px 0px inset, rgb(204, 133, 0) 0px 2px 3px 0px, rgb(153, 99, 0) 0px 7px 1px 0px, rgba(0, 0, 0, 0.2) 0px 12px 5px 0px;
+      color: rgb(153, 99, 0);
+      cursor: not-allowed;;
+      display: inline-block;
+      font-size: 24px;
+      font-style: normal;
+      height: 12px;
+      line-height: 24px;
+      padding-bottom: 9.600000381469727px;
+      padding-left: 16.399999618530273px;
+      padding-right: 14.399999618530273px;
+      padding-top: 12px;
+      position: relative;
+      text-align: left;
+      text-indent: -.38em;
+      text-decoration: none;
+      text-shadow: rgba(255, 255, 255, 0.498039) 0px -1px 0px, rgba(0, 0, 0, 0.180392) 0px 4px 3px;
+      transition-delay: 0s;
+      transition-duration: 0.2s;
+      transition-property: background;
+      transition-timing-function: ease-in-out;
+      width: 16px;
+    }
+    .logo:active{
+      border-bottom-color: rgba(0, 0, 0, 0.0980392);
+      border-bottom-left-radius: 14.390625px;
+      border-bottom-right-radius: 48px;
+      border-bottom-style: solid;
+      border-bottom-width: 1px;
+      border-top-color: rgb(153, 99, 0);
+      border-top-left-radius: 48px;
+      border-top-right-radius: 120px 96px;
+      border-top-style: none;
+      border-top-width: 0px;
+      box-shadow: rgba(255, 255, 255, 0.6) 0px 7px 7px 0px inset, rgba(0, 0, 0, 0.2) 0px -2px 7px 0px inset, rgba(0, 0, 0, 0.4) 0px 2px 1px 0px, rgba(0, 0, 0, 0.2) 0px 4px 6px 0px;
+      text-shadow: rgba(255, 255, 255, 0.298039) 0px 1px 0px, rgba(0, 0, 0, 0.14902) 0px 4px 3px;
+      transform: matrix(1, 0, 0, 1, 0, 4.800000190734863);
+      transition-delay: 0s;
+      transition-duration: 0.2s;
+      transition-property: background;
+      transition-timing-function: ease-in-out;
+    }
+    span.mune-botton{
+      float: right;
+      margin:8px 15px 0 0;
+    }
+  }
+}

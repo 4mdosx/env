@@ -1,9 +1,9 @@
 process.env.NODE_ENV = process.env.NODE_ENV || 'development';
 //设置环境变量：  in shell - export NODE_ENV = development
-var mongoose = require('./config/mongoose'),
-    express = require('./config/express');
+// var mongoose = require('./config/mongoose'),
+var    express = require('./config/express');
 
-var db = mongoose();
+// var db = mongoose();
 var app = express();
 
 app.listen(3000);
