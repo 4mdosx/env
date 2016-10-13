@@ -1,25 +1,6 @@
-# codelab-front
+# codelab-front-src
 
 > A Vue.js project
-
-<div id="app">
-  <app-nav></app-nav>
-  <app-view>
-    <app-sidebar></app-sidebar>
-    <app-content></app-content>
-  </app-view>
-</div>
-
--header
-
--view
-{
---item
----title
----desc
----sticker
-}
-
 
 ## Build Setup
 

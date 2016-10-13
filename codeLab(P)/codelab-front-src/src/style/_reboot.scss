@@ -1,0 +1,10 @@
+html{
+  font-family: $font-global;
+}
+html:lang(zh-CN){
+  font-family: $font-global-cn;
+}
+a{
+  text-decoration: none;
+  color:transparent;
+}
