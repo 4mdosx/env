@@ -1,5 +1,3 @@
-a skill tree for coder
+番茄闹钟+todoList的SPA
 
-9.10&9.11 X3 delay day
-
-9，17to 9.19
+高估了学习速度，慢慢来吧。

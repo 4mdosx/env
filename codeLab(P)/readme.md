@@ -1,6 +1,6 @@
 #codeLab - new feature Lab
 
-我正在加入Vue和CRUD
+我准备又双造一次轮子
 ⛽️
 
 - public/ (
@@ -33,4 +33,3 @@
 
 
 Processing....
-greenify/

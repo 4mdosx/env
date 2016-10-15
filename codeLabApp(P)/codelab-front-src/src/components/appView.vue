@@ -1,6 +1,8 @@
 <template lang="html">
 <div class="view-container">
-
+  <p>
+    {{ appvueMsg }}
+  </p>
 </div>
 </template>
 
@@ -8,6 +10,9 @@
 export default {
   data () {
     return {}
+  },
+  props: {
+    appvueMsg: String
   },
   computed: {},
   mounted () {},

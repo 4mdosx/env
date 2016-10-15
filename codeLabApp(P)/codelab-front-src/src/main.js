@@ -3,9 +3,9 @@ import App from './App'
 import  Ajax from './js/ajaxSimulator'
 /* eslint-disable no-new */
 
-new Vue({
+window.vueapp = new Vue({
   el: '#app',
   render: h => h(App)
 })
 
-var ajax = Ajax();
+window.ajax = Ajax();

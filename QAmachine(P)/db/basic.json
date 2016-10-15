@@ -1,0 +1,14 @@
+{
+  "Q":"",
+  "A":"",
+  "Ref":{
+    "Ref1":{
+      "type":"img",
+      "Data":"http://aaa.bbb.ccc.jpg"
+    },
+    "Ref2":{
+      "type":"url",
+      "Data":"http://aaa.bbb.ccc.jpg"
+    }
+  }
+}

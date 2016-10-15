@@ -1,18 +1,3 @@
-show.lastInQueue();
+#前端面试题
 
->flamingo  
-
-this.pushQueue();
-
-
-express my heartfelt thanks for
-
--Angular
-
--yaomen
-
--[STUkh's generator](https://github.com/stukh/generator-angular-webpack-es6#readme)
-
--npm package
-
--question source
+## 准备写一个小应用随机抽题

@@ -2,26 +2,21 @@
   <div id="app">
     <app-nav></app-nav>
     <app-view>
-      <app-banner></app-banner>
-      <app-news></app-news>
     </app-view>
-    <p>
-    </p>
   </div>
 </template>
 
 <script>
 import appNav from './components/appNav';
 import appView from './components/appView';
-import appBanner from './components/appBanner';
-import appNews from './components/appNews';
 
 export default {
+  data: function () {
+    return { appvueMsg: 'appvueMsg' }
+  },
   components: {
     appNav,
-    appView,
-    appBanner,
-    appNews
+    appView
   }
 }
 </script>
