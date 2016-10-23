@@ -4,7 +4,7 @@
 ( > º < )      *  welcome to recycling bin  *   (")_(")
  `>>x<<´       *   warcryDoggie@gmail.com   *
  /  O  \       喜欢py和js，因为他们是lisp的子集 (都不会，((逃
-                  摸过100个坑就换电脑！！ 11/100
+                  摸过100个坑就换电脑！！ 12/100
 ```
 
 
@@ -14,26 +14,26 @@
 
 计划1-2周更新一次。  
 
-开发流程并不直接使用本仓库，不遵守Branch segVer  
+开发流程并不直接使用本仓库，不遵守Branch segVersion  
 
 
 
 #Miss.Index 茵蒂克丝   
 ## --processing - P  
 
-coPro - SPA todoList
+coPro - SPA todoList  
 
-QAmachine - some FE question about
+QAmachine - some FE question about  
 
-codeLab - blog back-end , CMS and some RESTful API support , Node,Express
-*解耦中，至少通过实践理解了前后端不分离有多累*
+codeLabServer - Blog server,Node Express Mongo based,Support API that return JSON format  
 
-codeLabApp - blog Front-end, Vue power
-*菜鸡的最多对手是看不完的文档*
 
-vueComponent - practise for Vue
+codeLabApp - blog Front-end, Vue.js SPA  
 
-leetCode - daily(weekly😭) task [In here](https://github.com/warcryDoggie/LeetCode__python_and_JavaScript)
+
+vueComponent - practise for Vue  
+
+leetCode - daily(weekly😭) task [In here](https://github.com/warcryDoggie/LeetCode__python_and_JavaScript)  
 
 ## --suspend - S  
 
@@ -47,6 +47,8 @@ flamingo － Demo Project of the book _MEAN Web Development_ , I will edit some
 'out-time' code ，be compatible nearly Dependency version.  
 
 baMENXapp - a simple structure with Moogodb,Express,Node,X FE framework
+ 
+es6Learn - 学习ES6时，运行环境配置和一点笔记。  
 
 ## --abandon - A  
 
