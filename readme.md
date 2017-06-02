@@ -1,9 +1,11 @@
 ```
   |\_/|        *****************************     (\_/)
- / @ @ \       *    "ich trinke die Cola"   *   (='.'=)
+ / @ @ \       *    学习过程中的练手小玩意      *   (='.'=)
 ( > º < )      *  welcome to recycling bin  *   (")_(")
  `>>x<<´       *   warcryDoggie@gmail.com   *
  /  O  \       
 ```
 
-old code monument.
+gravestone of code.
+# Recently Work
+* Mongoose
