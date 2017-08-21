@@ -8,12 +8,11 @@ def sum(arr):
 print(sum([1, 2, 3, 6, 10]))
 
     #JS
-    #   function sum (arr) {
-    #   if (arr.length === 1) {
-    #     return arr[0]
+    # function sum (arr) {
+    #   if (arr.length) {
+    #     return arr.shift() + sum(arr)
     #   } else {
-    #     arr[0] = arr.shift() + arr[0]
-    #     return sum(arr)
+    #     return 0
     #   }
     # }
     #

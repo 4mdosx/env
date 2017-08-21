@@ -1,5 +1,5 @@
 {
-  "name": "koa_mongoose",
+  "name": "koaStart",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,9 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bluebird": "^3.5.0",
-    "koa": "^2.2.0",
-    "koa-bodyparser": "^4.2.0",
-    "mongoose": "^4.10.4"
+    "babel-preset-env": "^1.6.0",
+    "babel-register": "^6.26.0",
+    "koa": "^2.3.0"
   }
 }
