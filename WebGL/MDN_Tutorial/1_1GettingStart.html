@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script type="text/javascript">
+    var gl;
+    function start() {
+      var canvas = document.getElementById("glcanvas");
+
+      // 初始化 WebGL 上下文
+      gl = initWebGL(canvas);   
+      
+      // 只有在 WebGL 可用的时候才继续
+      
+      if (gl) {
+        // 设置清除颜色为黑色，不透明
+        gl.clearColor(0.0, 0.0, 0.0, 1.0);    
+        // 开启“深度测试”, Z-缓存
+        gl.enable(gl.DEPTH_TEST); 
+        // 设置深度测试，近的物体遮挡远的物体
+        gl.depthFunc(gl.LEQUAL); 
+        // 清除颜色和深度缓存
+        gl.clear(gl.COLOR_BUFFER_BIT|gl.DEPTH_BUFFER_BIT);     
+      }
+    }
+    function initWebGL(canvas) {
+      // 创建全局变量
+      window.gl = null;
+      
+      try {
+        // 尝试获取标准上下文，如果失败，回退到试验性上下文
+        gl = canvas.getContext("webgl") || canvas.getContext("experimental-webgl");
+        gl.viewport(0, 0, canvas.width, canvas.height);
+      }
+      catch(e) {}
+      
+      // 如果没有GL上下文，马上放弃
+      if (!gl) {
+        alert("WebGL初始化失败，可能是因为您的浏览器不支持。");
+        gl = null;
+      }
+      return gl;
+    }
+    function glFuncTest () {
+      gl.viewport(0, 0, 1280, 640)
+    }
+  </script>
+</head>
+<body onload="start()">
+  <canvas id="glcanvas" width="640" height="480">
+    Your browser doesn't appear to support the HTML5 <code>&lt;canvas&gt;</code> element.
+  </canvas>
+  <button onclick="glFuncTest()">func test</button>
+</body>
+</html>
