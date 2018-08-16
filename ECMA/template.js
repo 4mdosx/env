@@ -8,7 +8,7 @@ for(var i=0; i < data.supplies.length; i++) {
 echo('</ul>');`
 
 function echo(data){
-    console.log(data);
+   console.log(data)
 }
 
-${ template }
+${template}
