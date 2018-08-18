@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block headtitle %}
+  Oooooops...
+{% endblock %}
+
+{% block content %}
+  <p>
+    hi, <br>
+    You shouldn't come here, <br>
+    <a href="//c2si.me">back Home Site</a>
+  <p>
+{% endblock %}

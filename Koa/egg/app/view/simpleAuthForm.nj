@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block headtitle %}
+  Hello, Auth
+{% endblock %}
+
+{% block content %}
+  <form action="/login" method="post">
+    <label for="username">Username/Email:</label>
+    <input id="POST-name" type="text" name="username">
+    <label for="username">Password:</label>
+    <input id="POST-password" type="password" name="password"><br>
+    <input type="submit" value="Submit">
+  </form>
+  <br>
+  <form action="/signin" method="post">
+    <label for="email">Email:</label>
+    <input id="POST-email" type="text" name="email">
+    <label for="username">Name:</label>
+    <input id="POST-username" type="text" name="username">
+    <label for="username">Password:</label>
+    <input id="POST-password" type="password" name="password"><br>
+    <input type="submit" value="Submit for resgiter">
+  </form>
+{% endblock %}

@@ -1,0 +1,308 @@
+{
+  "keys": "/Users/ilex_pot/Github/helloNode/egg_api_server/config/config.default.js",
+  "uuidKey": "/Users/ilex_pot/Github/helloNode/egg_api_server/config/config.default.js",
+  "middleware": "/Users/ilex_pot/Github/helloNode/egg_api_server/config/config.default.js",
+  "mysql": {
+    "client": {
+      "host": "/Users/ilex_pot/Github/helloNode/egg_api_server/config/config.default.js",
+      "port": "/Users/ilex_pot/Github/helloNode/egg_api_server/config/config.default.js",
+      "user": "/Users/ilex_pot/Github/helloNode/egg_api_server/config/config.default.js",
+      "password": "/Users/ilex_pot/Github/helloNode/egg_api_server/config/config.default.js",
+      "database": "/Users/ilex_pot/Github/helloNode/egg_api_server/config/config.default.js"
+    },
+    "app": "/Users/ilex_pot/Github/helloNode/egg_api_server/config/config.default.js",
+    "agent": "/Users/ilex_pot/Github/helloNode/egg_api_server/config/config.default.js",
+    "default": {
+      "database": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg-mysql/config/config.default.js",
+      "connectionLimit": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg-mysql/config/config.default.js"
+    }
+  },
+  "security": {
+    "csrf": {
+      "ignore": "/Users/ilex_pot/Github/helloNode/egg_api_server/config/config.default.js",
+      "enable": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg-security/config/config.default.js"
+    },
+    "domainWhiteList": "/Users/ilex_pot/Github/helloNode/egg_api_server/config/config.default.js",
+    "protocolWhiteList": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg-security/config/config.default.js",
+    "xframe": {
+      "enable": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "view": {
+    "root": "/Users/ilex_pot/Github/helloNode/egg_api_server/config/config.default.js",
+    "mapping": {
+      ".nj": "/Users/ilex_pot/Github/helloNode/egg_api_server/config/config.default.js"
+    },
+    "defaultExtension": "/Users/ilex_pot/Github/helloNode/egg_api_server/config/config.default.js",
+    "cache": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg-view/config/config.local.js",
+    "defaultViewEngine": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg-view/config/config.default.js"
+  },
+  "session": {
+    "maxAge": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg-session/config/config.default.js"
+  },
+  "helper": {
+    "shtml": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "multipart": {
+    "autoFields": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg-multipart/config/config.default.js"
+  },
+  "development": {
+    "watchDirs": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg-development/config/config.default.js"
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg-static/config/config.default.js",
+    "dir": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg-static/config/config.default.js"
+  },
+  "cors": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg-cors/config/config.default.js",
+  "nunjucks": {
+    "autoescape": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg-view-nunjucks/config/config.default.js",
+    "throwOnUndefined": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg-view-nunjucks/config/config.default.js",
+    "trimBlocks": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg-view-nunjucks/config/config.default.js",
+    "lstripBlocks": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg-view-nunjucks/config/config.default.js",
+    "cache": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg-view-nunjucks/config/config.local.js"
+  },
+  "env": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js",
+  "name": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js",
+    "version": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js",
+    "description": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js",
+    "private": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js",
+    "dependencies": {
+      "egg": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js",
+      "egg-cors": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js",
+      "egg-mysql": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js",
+      "egg-passport": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js",
+      "egg-validate": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js",
+      "egg-view-nunjucks": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js",
+      "jsonwebtoken": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js",
+      "md5": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js",
+      "passport-local": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "autod": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js",
+      "autod-egg": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js",
+      "egg-bin": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js",
+      "egg-ci": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js",
+      "egg-mock": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js",
+      "eslint": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js",
+      "eslint-config-egg": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js",
+      "webstorm-disable-index": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js"
+    },
+    "scripts": {
+      "start": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js",
+      "stop": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js",
+      "dev": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js",
+      "debug": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js",
+      "test": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js",
+      "test-local": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js",
+      "cov": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js",
+      "lint": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js",
+      "ci": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js",
+      "autod": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js"
+    },
+    "ci": {
+      "version": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js",
+      "url": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js"
+    },
+    "author": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js",
+    "license": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js"
+  },
+  "baseDir": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js",
+    "strict": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js",
+      "depth": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js"
+    }
+  },
+  "logger": {
+    "dir": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js",
+    "env": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js",
+    "level": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxAge": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js",
+    "logging": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js",
+      "port": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Users/ilex_pot/Github/helloNode/egg_api_server/node_modules/egg/config/config.default.js"
+}

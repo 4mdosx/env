@@ -1,0 +1,17 @@
+// bulma and customization
+@import "~bulma/sass/utilities/initial-variables.sass";
+@import "~bulma/sass/utilities/functions.sass";
+@import "./variable.sass";
+@import "./utils";
+
+$family-serif: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* 1 */
+$body-size: 18px;
+$twitter: #55acee;
+$twitter-invert: findColorInvert($twitter);
+$github: #333;
+$github-invert: findColorInvert($github);
+
+@import "~bulma/sass/utilities/derived-variables.sass";
+$addColors: ("twitter": ($twitter, $twitter-invert), "github": ($github, $github-invert));
+$colors: map-merge($colors, $addColors)
+@import "~bulma/bulma.sass";
