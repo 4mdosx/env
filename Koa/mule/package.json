@@ -1,0 +1,21 @@
+{
+  "name": "mule",
+  "version": "0.1.0",
+  "description": "feed wrapper",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc-watch index.ts --outDir ./dist --onSuccess 'node ./dist/index.js' --onFailure 'echo Beep! Compilation Failed' --lib ES2015",
+    "build": "tsc index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "chaosdog.tl@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "koa": "^2.5.2",
+    "koa-router": "^7.4.0"
+  },
+  "devDependencies": {
+    "tsc-watch": "^1.0.22"
+  }
+}
