@@ -1,0 +1,31 @@
+{
+  "name": "poi-cms",
+  "version": "0.2.0",
+  "description": "lighting cms",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "token lin",
+  "license": "MIT",
+  "devDependencies": {
+    "node-sass": "^4.9.0",
+    "poi": "10.1.7",
+    "pug": "^2.0.3",
+    "sass-loader": "^7.0.1"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bulma": "^0.7.1",
+    "date-fns": "^1.29.0",
+    "element-ui": "^2.3.8",
+    "lodash": "^4.17.10",
+    "mavon-editor": "^2.6.3",
+    "query-string": "^6.1.0",
+    "vue": "^2.5.16",
+    "vue-router": "^3.0.1",
+    "vue-waterfall": "^1.0.6",
+    "vuesax": "^3.0.21",
+    "vuex": "^3.0.1"
+  }
+}

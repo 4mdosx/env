@@ -1,0 +1,33 @@
+.tag-picker{
+  width: 100%;
+  z-index: 101;
+  background-color: #fff;
+  .collapse-box{
+    box-shadow: 0 -2px 7px 0 rgba(0, 0, 0, .3);
+    background-color: rgb(251, 251, 251);
+    text-align: center;
+    position: relative;
+    bottom: -34px;
+    transition: min-height .5s;
+  }
+  .collapseIcon{
+    color: #1890ff;
+    font-size: 32px;
+    position: relative;
+    top: -22px;
+    transition: padding-bottom .3s;
+    cursor: pointer;
+  }
+  .anticon-down-circle{
+    top: -16px;
+  }
+  .isCollapsed .collapseIcon:hover{
+    padding-bottom: 20px
+  }
+
+  .tag-area{
+    overflow-y: scroll;
+    text-align: left;
+    padding: 0 10px;
+  }
+}

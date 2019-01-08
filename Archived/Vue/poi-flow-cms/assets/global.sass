@@ -1,0 +1,69 @@
+@import "./variable";
+@import "./vuesax-costom";
+
+body
+  overflow: hidden
+  height: 100vh
+  width: 100vw
+
+.standard-view
+  width: $iphone-width
+  height: $iphone-height
+  legend
+    position: relative
+    height: 1rem
+    width: 100%
+    display: block
+    span
+      position: absolute
+      right: 0
+      padding-left: 15px
+      background-color: #fff
+    &:before
+      display: block
+      position: absolute
+      content: ''
+      width: 100%
+      border-bottom: 1px solid #ccc
+      top: 12px
+
+.mgl-10
+    margin-left: 10px
+
+.code
+  font-family: Lucida Console, Courier, monospace
+
+.loading-bar
+  position: absolute !important
+  bottom: 0
+
+.is-lite-loading
+  position: relative
+  &::after
+    left: calc(50% - (2em / 2))
+    top: calc(50% - (2em / 2))
+    position: absolute !important
+    animation: spinAround 500ms infinite linear
+    border: 2px solid #dbdbdb
+    border-radius: 290486px
+    border-right-color: transparent
+    border-top-color: transparent
+    content: ""
+    display: block
+    height: 2em
+    width: 2em
+
+.mini-input
+  input
+    font-size: 1rem
+    padding: 0 !important
+    border-radius: unset !important
+    border-left: none !important
+    border-right: none !important
+    border-top: none !important
+  input:focus
+    outline: none
+
+.vs-input:disabled
+  color: #000 !important
+  
