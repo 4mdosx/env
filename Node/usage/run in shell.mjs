@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 // : run code in shell
+// ::
+
 import 'zx/globals'
 
 await $`cat ../package.json | grep name`
