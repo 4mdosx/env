@@ -63,7 +63,7 @@ fn main() {
 
     let a: [i32; 5] = [1, 2, 3, 4, 5]; // array , i32 is the type of each element. After the semicolon, the number 5 indicates the array contains five elements.
 
-      println!("The value of array[2] is: {}", a[2]);
+    println!("The value of array[2] is: {}", a[2]);
 ```
 
 ## Function
