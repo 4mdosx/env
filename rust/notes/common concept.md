@@ -48,6 +48,7 @@ fn main() {
 
     let c = 'z';
     let z = 'ℤ'; // Character Type
+    let string: str = "Some content"; // string
 }
 ```
 
