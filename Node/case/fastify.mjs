@@ -10,7 +10,9 @@ fastify.get('/', (request, reply) => {
 })
 
 // Run the server!
-fastify.listen(3000, (err, address) => {
+fastify.listen(3000, '0.0.0.0', (err, address) => {
   if (err) throw err
   // Server is now listening on ${address}
 })
+
+export default fastify
