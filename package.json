@@ -8,7 +8,7 @@
     "zx": "^4.2.0"
   },
   "scripts": {
-    "run": "node run.mjs",
+    "settle": "node settle.mjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
