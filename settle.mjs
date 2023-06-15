@@ -27,7 +27,7 @@ function addShebang (raw) {
 }
 
 async function createExecFiles () {
-  if (await test('./.bin')) await fs.rmdir('./.bin', { recursive: true })
+  if (await test('./.bin')) await fs.rm('./.bin', { recursive: true })
   await fs.mkdir('./.bin')
 
   const files = await fs.readdir('./bin').then(files => files.filter(file => file.match(/.js|.mjs/)))
