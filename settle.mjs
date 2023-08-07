@@ -6,6 +6,7 @@ import fs from 'node:fs/promises'
 import path from 'node:path'
 import test from './lib/test.mjs'
 
+$.verbose = false
 async function injectPath () {
   const shellrc = await $`cat ~/.zshrc`
   const cwd = process.cwd()

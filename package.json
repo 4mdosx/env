@@ -4,6 +4,7 @@
   "description": "## macOS",
   "main": "hello.js",
   "dependencies": {
+    "commander": "^11.0.0",
     "fastify": "^3.27.1",
     "zx": "^4.2.0"
   },

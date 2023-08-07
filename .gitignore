@@ -2,6 +2,7 @@
 .bin
 *.temp.*
 Dump
+lab
 
 #macOS
 .DS_Store
