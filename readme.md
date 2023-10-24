@@ -1,5 +1,5 @@
 # Env   
-Node.js shell tools, Quickly return to familiar development environment 
+Node.js shell tools, Quickly init development environment
 
 ## requirement
 
@@ -16,3 +16,6 @@ $ npm run settle
 $ hello
 ```
 
+## bin
+
+wrapping script in bin folder to global

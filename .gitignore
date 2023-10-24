@@ -10,3 +10,7 @@ lab
 #Node
 node_modules
 package-lock.json
+
+# script lab
+/lab/data/input/*
+/lab/data/output/*
