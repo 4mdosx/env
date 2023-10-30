@@ -4,7 +4,7 @@
 import { $ } from 'zx'
 import fs from 'node:fs/promises'
 import path from 'node:path'
-import test from './lib/test.mjs'
+import isExist from './lib/isExist.mjs'
 
 $.verbose = false
 async function injectPath () {
@@ -28,7 +28,7 @@ function addShebang (raw) {
 }
 
 async function createExecFiles () {
-  if (await test('./.bin')) await fs.rm('./.bin', { recursive: true })
+  if (await isExist('./.bin')) await fs.rm('./.bin', { recursive: true })
   await fs.mkdir('./.bin')
 
   const files = await fs.readdir('./bin').then(files => files.filter(file => file.match(/.js|.mjs/)))
