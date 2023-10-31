@@ -1,4 +1,5 @@
 #global
+config.mjs
 .bin
 *.temp.*
 Dump
