@@ -1,10 +1,12 @@
 import Fastify from 'fastify'
+import multer from './multer.mjs'
 
 const fastify = Fastify({
   logger: true,
 })
 
-// Declare a route
+multer(fastify)
+
 fastify.get('/', (request, reply) => {
   reply.send({ hello: 'world' })
 })
