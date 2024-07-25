@@ -4,6 +4,7 @@ config.mjs
 *.temp.*
 Dump
 lab
+.env
 
 #macOS
 .DS_Store

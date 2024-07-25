@@ -1,18 +1,23 @@
 {
-  "name": "node",
+  "name": "node_env",
   "version": "1.0.0",
   "description": "## macOS",
   "main": "hello.js",
   "dependencies": {
     "commander": "^11.0.0",
     "fastify": "^3.27.1",
+    "ts-node": "^10.9.2",
     "zx": "^4.2.0"
   },
   "scripts": {
+    "launch": "ts-node launch.ts",
     "settle": "node settle.mjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
 }

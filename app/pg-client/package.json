@@ -1,0 +1,24 @@
+{
+  "name": "pg-client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.mjs",
+  "scripts": {
+    "dev": "prisma generate && nodemon ./main.mjs",
+    "db-update": "prisma generate && prisma db push",
+    "seed": "prisma db seed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.14.12",
+    "prisma": "^5.17.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.17.0",
+    "postgres": "^3.4.4"
+  }
+}
