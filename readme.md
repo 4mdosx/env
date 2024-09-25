@@ -10,8 +10,8 @@ $ npm run lancher
 
 # 项目结构
 
-# ui
-Next.js UI 项目 UI 界面
+# next.js 
+Next.js UI 实验环境
 
 # app
 单一功能的应用
