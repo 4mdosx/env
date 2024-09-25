@@ -13,14 +13,14 @@ $ npm run lancher
 # next.js 
 Next.js UI 实验环境
 
+# lab
+playground， 临时脚本
+
 # app
 单一功能的应用
 
-# lib
+# wapper
 第三方命令行工具wrap
-
-# lab
-playground， 临时脚本
 
 ## bin
 
